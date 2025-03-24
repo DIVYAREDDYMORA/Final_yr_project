@@ -1,0 +1,1443 @@
+SYSTEM REQUIREMENTS
+
+SOFTWARE REQUIREMTS
+
+
+•	Python idel 3.7 version (or)
+
+•	Anaconda 3.7 (or)
+
+•	Jupiter (or)
+
+•	Google colab
+
+ 	Libraries:
+o	Tkinter
+o	Matplotlib.pyplot
+o	Numpy
+o	Pandas
+o	Seaborn
+o	Scikit-Learn(sklearn)
+
+ 	Language: Python
+
+
+HARDWARE REQUIREMENTS
+
+
+•	Operating System: Windows, linux
+•	Processor: minimum intel i3
+•	Ram: minimum 4gb
+•	Hard disk: minimum 250gb
+
+
+
+
+
+ANACONDA
+
+
+Anaconda is a complete, open-source data science package with a community of over 6 million users. It is easy to download and install, and it is supported on Linux, MacOS, and Windows.
+
+The distribution comes with more than 1,000 data packages as well as the Conda package and virtual environment manager, so it eliminates the need to learn to install each library independently.   As Anaconda‘s   website   says,   ―The   Python   and   R   conda   packages   in   the Anaconda Repository are curated and compiled in our secure environment so you get optimized binaries that ‗just work‘ on your system.
+
+
+Anaconda Distribution
+
+
+What is Anaconda Navigator?
+
+Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda® distribution that allows you to launch applications and easily manage conda packages, environments, and channels without using command-line commands. Navigator can search for packages on Anaconda Cloud or in a local Anaconda Repository. It is available for Windows, MacOS, and Linux.
+
+Why use Navigator?
+
+In order to run, many scientific packages depend on specific versions of other packages. Data scientists often use multiple versions of many packages and use multiple environments to separate these different versions.
+
+The command-line program conda is both a package manager and an environment manager. This helps data scientists ensure that each version of each package has all the dependencies it requires and works correctly.
+
+
+Navigator is an easy, point-and-click way to work with packages and environments without needing to type conda commands in a terminal window. You can use it to find the packages you want, install them in an environment, run the packages, and update them – all inside Navigator.
+
+What applications can we access using Navigator?
+
+The following applications are available by default in Navigator:
+
+
+	Jupyter Notebook
+
+
+	Spyder
+
+
+	PyCharm
+
+
+	VSCode
+
+
+	Glueviz
+
+
+	Orange 3 App
+
+
+	RStudio
+
+
+	Anaconda Prompt (Windows only)
+
+
+	Anaconda PowerShell (Windows only)
+
+
+	Jupyter Lab
+
+•	Jupyter Lab: This is an extensible working environment for interactive and reproducible computing, based on the Jupyter Notebook and Architecture.
+•	Qt Console: It is the PyQt GUI that supports inline figures, proper multiline editing with syntax highlighting, graphical calltips and more.
+•	Spyder: Spyder is a scientific Python Development Environment. It is a powerful Python IDE with advanced editing, interactive testing, debugging and introspection features.
+•	VS Code: It is a streamlined code editor with support for development operations like debugging, task running and version control.
+•	Glueviz: This is used for multidimensional data visualization across files. It explores relationships within and among related datasets.
+•	Orange 3: It is a component-based data mining framework. This can be used for data visualization and data analysis. The workflows in Orange 3 are very interactive and provide a large toolbox.
+•	Rstudio: It is a set of integrated tools designed to help you be more productive with R. It includes R essentials and notebooks. 
+
+
+•	Jupyter Notebook:
+
+This is a web-based, inter active computing notebook environment. We can edit and runhuman-readable docs while describing the data analysis.
+
+The Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code, equations, visualizations, and text. Jupyter Notebook is maintained by the people at Project Jupyter.
+
+Jupyter Notebooks are a spin-off project from the IPython project, which used to have an IPython Notebook project itself. The name, Jupyter, comes from the core supported programming languages that it supports: Julia, Python, and R. Jupyter ships with the IPython kernel, which allows you to write your programs in Python, but there are currently over 100 other kernels that you can also use.
+The Jupyter Notebook is not included with Python, so if you want to try it out, you will need to install Jupyter.
+There are many distributions of the Python language. This article will focus on just two of them for the purposes of installing Jupyter Notebook. The most popular is CPython, which is the reference version of Python that you can get from their website. It is also assumed that you are using Python.
+
+•	PyCharm: It is the most popular IDE for Python, and includes great features such as excellent code completion and inspection with advanced debugger and support for web programming and various frameworks. PyCharm is created by Czech company, Jet brains which focusses on creating integrated development environment for various web development languages like JavaScript and PHP. PyCharm offers some of the best
+features to its users and developers in the following aspects
+
+	Code completion and inspection.
+
+
+	Advanced debugging.
+
+
+	Support for web programming and frameworks such as Django and Flask.
+
+
+Features of PyCharm
+
+Besides, a developer will find PyCharm comfortable to work with because of the features mentioned below −
+	Code Completion: PyCharm enables smoother code completion whether it is for built in or for an external package.
+	SQL Alchemy as Debugger : You can set a breakpoint, pause in the debugger and can see the SQL representation of the user expression for SQL Language code.
+	Git Visualization in Editor: When coding in Python, queries are normal for a developer. You can check the last commit easily in PyCharm as it has the blue sections that can define the difference between the last commit and the current one.
+	Code Coverage in Editor: You can run .py files outside PyCharm Editor as well marking it as code coverage details elsewhere in the project tree, in the summary section etc.
+	Package Management: All the installed packages are displayed with proper visual representation. This includes list of installed packages and the ability to search and add new packages.
+	Local History is always keeping track of the changes in a way that complements like Git. Local history in PyCharm gives complete details of what is needed to rollback and what is to be added.
+	Refactoring is the process of renaming one or more files at a time and PyCharm includes various shortcuts for a smooth refactoring process.
+	Wamp Server: WAMPs are packages of independently-created programs installed on computers that use a Microsoft Windows operating system. Apache is a web server. MySQL is an open-source database. PHP is a scripting language that can manipulate information held in a database and generate web pages dynamically each time content is requested by a browser. Other programs may also be included in a package, such as php My Admin which provides a graphical user interface for the MySQL database manager, or the alternative scripting languages Python or Perl.
+
+Installation on Windows
+
+Visit the link https://www.python.org/downloads/to download the latest release of Python. In this process, we will install Python 3.6.7 on our Windows operating system.
+Double-click the executable file which is downloaded; the following window will open.
+Select Customize installation and proceed.
+
+ 
+                    
+                                                          Anaconda Navigator
+
+
+
+How can I run code with Navigator?
+
+The simplest way is with Spyder. From the Navigator Home tab, click Spyder, and write andexecute your code.
+You can also use Jupyter Notebooks the same way. Jupyter Notebooks are an increasingly popular system that combine your code, descriptive text, output, images, and interactive interfaces into a single notebook file that is edited, viewed, and used in a web browser.
+
+LIBRARIES:
+
+Matplootlib:
+
+•	Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
+•	Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface tool kits.
+
+
+
+
+Matplotlib images
+
+     
+
+•	Matplotlib tries to make easy things easy and hard things possible.
+
+•	You can generate plots, histograms, power spectra, bar charts, error charts, scatter plots, etc., with just a few lines of code.
+
+•	For simple plotting the pyplot module provides a MATLAB-like interface, particularly when combined with IPython.
+•	For the power user, you have full control of line styles, font properties, axes properties, etc, via an object-oriented interface or via a set of functions familiar to MATLAB users.
+
+Numpy:
+
+•	Numpy is the fundamental package for scientific computing with Python. It contains among other things:
+•	a powerful N-dimensional array object
+
+•	sophisticated (broadcasting) functions
+
+•	tools for integrating C/C++ and Fortran code
+
+•	useful linear algebra, Fourier transform, and random number capabilities
+
+•	Besides its obvious scientific uses, NumPy can also be used as an efficient multi dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+
+•	NumPy is licensed under   the   BSD   license, enabling reuse   with   few   restriction.
+
+        Pandas:
+
+History of development
+
+•	In 2008, pandas development began at AQR Capital Management. By the end of 2009 it had been open sourced, and is actively supported today by a community of like- minded individuals around the world who contribute their valuable time and energy to help make open source pandas possible.
+•	Since 2015, pandas is a Num FOCUS sponsored project. This will help ensure the success of development of pandas as a world-class open-source project.
+
+•	Timeline
+
+•	2008: Development of pandas started
+
+•	2009: pandas become open source
+
+•	2012: First edition of Python for Data Analysis is published
+
+•	2015: pandas become a Num FOCUS sponsored project
+
+•	2018: First in-person core developer sprint
+
+
+•	Library Highlights
+
+•	A fast and efficient Data Frame object for data manipulation with integrated indexing.
+
+•	Tools for reading and writing data between in-memory data structures and different formats: CSV and text files, Microsoft Excel, SQL databases, and the fast HDF5format;
+
+•	Data alignment and integrated handling of missing data: gain automatic label-based alignment in computations and easily manipulate messy data into an orderly form.
+
+•	Flexible reshaping and pivoting of datasets.
+
+•	Intelligent label-based slicing, fancy indexing, and sub setting of large datasets.
+
+•	Columns can be inserted and deleted from data structures for size mutability.
+
+
+Aggregating or transforming data with a powerful group by engine allowing split- apply-combine operations on datasets.
+•	High performance merging and joining of data sets.
+•	Hierarchical axis indexing provides an intuitive way of working with high- dimensional data in a lower-dimensional data structure.
+•	Time series-functionality: date range generation and frequency conversion, moving window statistics, date shifting and lagging. Even create domain-specific time offsets and join time series without losing data.
+•	Highly optimized for performance, with critical code paths written in CythonorC.
+
+•	Python with pandas is in use in a wide variety of academic and domains, including Finance, Neuroscience, Economics, Statistics, Advertising, Web Analytics, and more.
+
+         Mission
+
+Pandas aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language.
+
+        Vision
+
+•	Accessible to everyone
+
+•	Free for users to use and modify
+
+•	Flexible
+
+•	Powerful
+
+•	Easy to use
+
+•	Fast
+
+     Values
+
+The core of pandas to be respectful and welcoming with everybody, users, contributors and the broader community. Regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality.
+
+
+  Regex:
+
+•	A regular expression, regex or regexp (sometimes called a rational expression) is a sequence of characters that define a search pattern.
+•	Usually such patterns are used by string searching algorithms for "find" or "find and replace" operations on strings or for input validation.
+•	It is a technique developed in the oretical computer science and formal language theory.
+
+•	Regular expressions are used in search engines, search and replace dialogs of word processors and text editors, in text processing utilities such assed and AWK and in lexical analysis.
+•	Many programming languages provide regex capabilities either built-in or via libraries.
+
+
+    Requests:
+
+•	Requests is a Python HTTP library, released under theApache2 License.
+
+•	The goal of the project is to make HTTP requests simpler and more human-friendly.
+
+•	The current version is2.22.0
+
+•	The requests library is the de facto standard for making HTTP requests in Python.
+
+•	It abstracts the complexities of making requests behind a beautiful, simple API so that you can focus on interacting with services and consuming data in your application.
+
+Scikit-learn:
+
+•	scikit-learn (formerly scikits.learnand also known as sklearn) is a free software machine learning library for the Python programming language.
+
+•	It features various classification ,regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python   numerical   and   scientific libraries NumPy and SciPy.
+•	Scikit-learn is largely written in Python, and uses num pyetensively for high- performance linear algebra and array operations.
+•	Furthermore some core algorithms are written in Cythonto improve performance.
+•	Support vector machines are implemented by a Cython wrapper around LIBSVM; logistic regression and linear support vector machines by a similar wrapper around LIBLINEAR.
+•	In such cases, extending these methods with Python may not be possible.
+
+•	Scikit-learn integrates well with many other Python libraries, such as matplotlib and plotly for plotting, numpy for array factorization, pandas data frames, skimpy, and many more.
+•	Scikit-learn is one of the most popular machine learning libraries on GitHub.
+
+SciPy:
+
+•	SciPy is a free and open-source Python library used for scientific computing and technical computing.
+•	SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.
+•	SciPy builds on the NumPy array object and is part of the NumPy stack which includes tools like Matplotlib, pandas and SymPy, and an expanding set of scientific computing libraries.
+•	This NumPy stack has similar users to other applications such as MATLAB,GNU Octave, and Scilab.
+•	The NumPy stack is also sometimes referred to as the SciPystack.
+•	SciPy is also a family of conferences for users and developers of these tools: SciPy (in the United States), EuroSciPy (in Europe) and SciPy.in (in India).
+•	Enthought originated the SciPy conference in the United States and continues to sponsor many of the international conferences as well as host the SciPy website.
+•	The SciPy library is currently distributed under the BSD license, and its development is sponsored and supported by an open community of developers.
+•	It is also supported by Num FOCUS, a community foundation for supporting reproducible and accessible science.
+•	The basic data structure used by SciPy is a multidimensional array provided by the Num Py module.
+•	Numpy provides some functions for linear algebra, Fourier transforms, and random number generation, but not with the generality of the equivalent functions in SciPy.
+•	NumPy can also be used as an efficient multidimensional container of data with arbitrary data types.
+•	This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+•	Older versions of SciPy used Numeric as an array type, which is now deprecated in favor of the newer NumPy array code.
+
+
+PYTHON
+
+•	Python is a general purpose, dynamic, high level and interpreted programming language. It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.
+•	Python is easy to learn yet powerful and versatile scripting language which makes it attractive for Application Development.
+•	Python's syntax and dynamic typing with its interpreted nature, makes it an ideal language for scripting and rapid application development.
+•	Python supports multiple programming pattern, including object oriented, imperative and functional or procedural programming styles.
+•	Python is not intended to work on special area such as web programming. That is why it is known as multipurpose because it can be used with web, enterprise, 3D CAD etc.
+•	We don't need to use data types to declare variable because it is dynamically typed so we can write a=10 to assign an integer value in an integer variable.
+•	Python makes the development and debugging fast because there is no compilation step included in python development and edit-test-debug cycle is very fast.
+Python features:
+
+
+•	Python provides lots of features that are listed below
+
+•	Easy to Learn and Use: Python is easy to learn and use. It is developer-friendly and high level programming language.
+•	Expensive Language: Python language is more expressive means that it is more understandable and readable.
+•	Interpreted Language: Python is an interpreted language i.e. interpreter executes the code line by line at a time. This makes debugging easy and thus suitable for beginners.
+•	Cross-platform Language: Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc. So, we can say that Python is a portable language.
+•	Free and Open Source: Python language is freely available at official web address. The source-code is also available. Therefore it is open source.
+•	Object-Oriented Language: Python supports object oriented language and concepts of classes and objects come into existence.
+•	Extensible: It implies that other languages such as C/C++ can be used to compile the code and thus it can be used further in our python code.
+•	Large Standard Library: Python has a large and broad library and provides rich set of module and functions for rapid application development.
+•	GUI Programming Support: Graphical user interfaces can be developed using Python.
+
+•	Integrated: It can be easily integrated with languages like C, C++, JAVA etc.
+
+Python applications:
+Python is known for its general purpose nature that makes it applicable in almost each domainof software development. Python as a whole can be used in any sphere of development.
+Here, we are specifying applications areas where python can be applied.
+
+
+Web Applications:
+
+We can use Python to develop web applications. It provides libraries to handle internet protocols such as HTML and XML, JSON, Email processing, request, beautiful Soup, Feed parser etc. It also provides Frameworks such as Django, Pyramid, Flask etc to design and develop web based applications. Some important developments are: Python Wiki Engines, Pocoo, Python Blog Software etc.
+
+Desktop GUI Applications:
+
+Python provides Tk GUI library to develop user interface in python based application. Some other useful toolkits wxWidgets, Kivy, pyqt that are useable on several platforms. The Kivy is popular for writing multi touch applications.
+ 
+Software Development:
+
+Python is helpful for software development process. It works as a support language and can be used for build control and management, testing etc.
+
+                Scientific and Numeric:
+
+
+Python is popular and widely used in scientific and numeric computing. Some useful library and package are SciPy, Pandas, IPython etc. SciPy is group of packages of engineering, science and mathematics.
+
+
+                      Business Applications:
+
+
+Python is used to build business applications like ERP and e-commerce systems. Trytonis a high level application platform.
+
+
+                       Console Based Application:
+
+We can use Python to develop console based applications. For example: IPython.
+
+                              Audio or Video based Applications:
+
+Python is awesome to perform multiple tasks and can be used to develop multimedia applications. Some of real applications are: TimPlayer, cplay etc.
+
+3D CAD Applications:
+
+To create CAD application Fandango is a real application which provides full features of CAD.
+
+
+            Enterprise Applications:
+
+
+Python can be used to create applications which can be used within an Enterprise or an Organization. Some real time applications are: Open Erp, Tryton, Picalo etc.
+
+Applications for Images:
+
+Using Python several applications can be developed for image. Applications developedare: VPython, Gogh, imgSeeketc.
+ 
+
+HOW TO INSTALL PYTHON (ENVIRONMENT SET UP) :
+
+
+Installation on Windows
+
+
+Visit the link https://www.python.org/downloads/to download the latest release of Python. In this process, we will install Python 3.6.7 on our Windows operating system.
+
+
+Double-click the executable file which is downloaded; the following window will open.Select Customize installation and proceed.
+
+
+ 
+                                         Python Installation step-1
+The following window shows all the optional features. All the features need to be installed and are checked by default; we need to click next to continue.
+
+ 
+
+Python Installation step-2
+
+
+
+
+
+The following window shows a list of advanced options. Check all the options which you want to install and click next. Here, we must notice that the first check-box (install for all users) must be checked.
+ 
+
+
+ 
+
+                    Python Installation step-3 Now, we are ready to install
+ 
+Python Installation step-4
+
+
+
+Now, try to run python on the command prompt. Type the command python in case of python2 or python3 in case of python3. It will show an error as given in the below image. It is because we haven't set the path.
+ 
+
+Python Installation step-5
+
+
+
+
+To set the path of python, we need to the right click on "my computer" and go to Properties
+
+
+→ Advanced → Environment Variables
+
+ 
+Python Installation step-6
+
+ 
+Python Installation step-7
+
+
+Add the new path variable in the user variable sectio
+Python Installation step-8
+
+
+Type PATH as the variable name and set the path to the installation directory of the python shown                   in the below image.
+
+
+
+
+
+
+Python Installation step-9
+
+
+Now, the path is set, we are ready to run python on our local system. Restart CMD, and type python again. It will open the python interpreter shell where we can execute the python statements.
+
+
+
+
+
+
+
+
+
+Web mining and Web usage mining techniques
+
+
+Web mining is using data mining technique to discover and extract information automatically from documents and Web services.
+
+Web mining aims to discover and retrieve useful and interesting patterns from large data sets, as well as in the classic data mining. Big data act as data sets on web mining. Web data includes information, documents, structure and profile. Web mining is based on two concepts defined, process-based and data-driven. (Based on data routinely and commonly used). In the view of Web mining data web is used to extract knowledge. In general, the use of web mining typically involves several steps: collecting data, selecting the data before processing, knowledge discovery and analysis.
+
+                                              1.Types of web mining
+Web mining can be generally divided into three categories, as seen in Figure 1:
+
+
+
+Web mining
+
+
+
+Web content mining
+
+Web content mining is the process of extracting useful information from the content of Web documents. The contents of a web document is corresponding to the concepts that that the document sought to transfer it to users. This content can include text, image, video, sound or records such as lists and tables. The text mining has been studied more than other areas.
+
+Web structure mining
+
+The web can be represented as graph which its nodes and edges are the links between documents. Web structure mining is the process of extracting structural information from the web.
+
+Web usage mining
+
+Web usage mining is the application of data mining techniques to discover patterns using the Web to better understand and meet the needs of the user. This type of web mining explores data relating to the use of web users. It should be noted that there are no clear boundaries between web mining groups. For example, web content mining techniques can use user information in addition to using the documents. It can also be achieved to better results by the combination of above techniques.
+The web can be represented as graph which its nodes and edges are the links between documents. Web structure mining is the process of extracting structural information from the web.
+
+Web mining applications
+
+There are many applications in web mining which the most important of them is seen in Figure 2. Most popular web applications in the mining area are e-commerce and customer relationship management (CRM). Most major Web usage mining is in these two areas.
+ 
+                                 
+                                                         Web mining applications
+
+2.Web usage mining
+
+Business web usage mining uses statistical methods to explore. But researches focus on developing knowledge extraction techniques that are used analyze the web usage mining data. Three main methods that are used to web usage mining include: Association rules, sequential patterns, and clustering. In this section, each of these methods are described in.
+
+Association rules
+
+Association rule is the most basic rule of data mining methods which is used more than other methods in the web usage mining. This method enables web site for more efficient organization of content or provide recommendations for effective cross-selling product. These rules are statements in the form X => Y where (X) and (Y) are the set of available
+items in a series of transactions. The rule of X => Y states that, transactions that contain items in X, may also include items in Y. association rules in the web usage mining are used to find relationships between pages that frequently appear next to one another in user sessions. For example, a rule can be obtained in the following format:
+
+A.html, B.html => C.html
+This rule shows, if user observes A and B pages, most likely will observe page C at the same meeting. A common algorithm to extract association rules is Apriori algorithm. Some criteria are presented to assess the rules extracted from the web usage data. Also, a method is presented by using association rules and fuzzy logic to extract data using the web fuzzy association rules.
+
+Sequential patterns
+
+Sequential patterns are used to discover the subsequence in the large volume of sequential data. In web usage mining, sequential patterns are used to find user navigation patterns which appear frequently at meetings. A sequential pattern is often as follows:
+
+70% of users who have first observed the page A.html and then page B.html, have observed page HTML in the same session, too. The sequential patterns may seem to association rules. Actually, algorithms that are used to extract association rules, can also be used to generate sequential patterns. But the sequential patterns are included the time, it means that the sequence of events occurred is defined in sequential patterns. In the above example, pages A, B, C are respectively seen in a user session. But in the example mentioned before, anything has not been considered about the sequence of events. Two types of algorithms are used for mining sequential patterns. The first type of algorithms is based on association rules mining. In fact, many common algorithms of mining sequential patterns have been changed for mining association rules. For example, GSP and Apriori All are two developed species of Apriori algorithm which are used to extract association rules. But some researchers believe that association rules mining algorithms do not have enough performance in the long sequential patterns mining. For this reason, the second type of sequential patterns mining algorithms have been introduced in which the tree structure and Markov chain are used to represent survey patterns. For example, in one of these algorithms that is called WAP-mine, the tree structure which is called WAP-tree is used to explore access patterns to the web. Evaluation results show that its performance is higher than an algorithm such as GSP.
+
+
+
+Clustering
+
+
+Clustering techniques diagnose groups of similar items among high volumes of data. This is done based on distance functions which measures the degree of similarity between different items. Clustering in web usage mining is used for grouping similar meetings.
+
+What is important in this type of search, is contrast of the user group and individual group.
+
+
+Two types of interesting clustering can be found in this area: 1 - user clustering, 2- page clustering. Clustering of user records is usually used to analyze the tasks in web mining and web analytics.
+More knowledge derived from clustering is used to partition the market in e-commerce. Different methods and techniques are used for clustering which include:
+-	Using the similarity graph and the amount of time spent viewing a page to estimate the similarity of meetings.
+
+-	Using genetic algorithms and user feedback.
+
+
+-	Clustering matrix.
+
+
+-	K -means algorithm, which is the most classic clustering method.
+
+In other clustering method, first the repetitive patterns are extracted from the user's sessions by using association rules. Then, these patterns used to construct a graph where the nodes are the visited pages. The edges of the graph connect two or more pages, if these pages exist in a pattern extracted so the weight will be assigned to the edges that shows the relationship between the nodes. Then, for clustering, this graph is recursively divided to user behavior groups are detected.
+
+
+
+
+3.Web usage mining applications
+
+The main objective of web usage mining is to collect data about the user's navigation patterns. This information can be used to improve the Web sites in the user view. Three main applications of this mining are studied in this section.
+
+The privatization of web content
+
+Web usage mining techniques can be used for personalization of web users. For example, user behavior can be immediately predicted by comparing her current survey patterns with survey patterns extracted from the log files. Recommendation systems which have a real application in this area are, suggest links that direct the user to his favorite pages. Some sites also organize their product catalogues based on predicted interests of specific user and represent them.
+
+Pre - recovery
+
+The results of web usage mining can be used to improve the performance of Web servers and Web-based applications. Web usage mining can be used for retrieving and caching strategies and thus reduce the response time of Web servers.
+
+The improvement of Web site design
+
+Usability is one of the most important issues in designing and implementing web sites. The results of web usage mining can help to appropriate design of web sites. Adaptive web sites is an application of this type of mining. Website content and structure are dynamically reorganized based on data derived from user behavior in these sites.
+
+
+4.Web mining challenges
+
+Web mining is faced with various challenges and constraints. From one perspective, these limitations can be divided into two groups: technical and non-technical. The non-technical restrictions can be included the lack of management support, inadequate fund and lack of required resources such as professional human resources. But there are many technical problems that some of them are mentioned here:
+
+Incorrect and inaccurate data
+
+To do web mining process successfully, be sure that the collected data are correct and in the proper format. But there are usually many problems in this area. First, the data may be inaccurate. Secondly, the data may be incomplete and unavailable. Thirdly, estimation of assurance about the accuracy of the data is simply not possible.
+
+The lack of tools
+
+Another limitation of web mining is the lack of appropriate and complete means for it. In this regard, the experts must decide to develop an application of web mining or use available tools.
+
+Custom tools
+
+Available tools only support one of the web mining types such as classification or clustering. But it is better a web mining tool is able to perform several techniques to allow users to use the appropriate technique according to his requirements. Now, many researches are doing in the field of web mining which aim to solve these problems.
+
+When web mining techniques are used in companies that have some type of personal information and business concerns, help companies to have more detailed profiles of individuals to have a more intelligent marketing, at the same time web mining can be a threat to personal information and privacy (or at least it seems). Privatization web mining made latency and non-proliferation information difficult to people
+
+The improvement of Web site design
+
+Usability is one of the most important issues in designing and implementing web sites. The results of web usage mining can help to appropriate design of web sites. Adaptive web sites is an application of this type of mining. Website content and structure are dynamically reorganized based on data derived from user behavior in these sites.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+CHAPTER 7
+SYSTEM DESIGN
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYSTEM DESIGN
+
+
+Design:
+
+Introduction to UML
+
+These diagrams describe the functionality provided by a system to external integrators.
+
+These diagrams contain actors, use cases, and their relationships.
+
+
+Introduction to UML
+
+UML is a method for describing the system architecture in detail using the blue print. UML represents a collection of best engineering practice that has proven successful in the modeling of large and complex systems. The UML is very important parts of developing object- oriented software and the software development process. The UML
+uses mostly graphical notations to express the design of software projects. Using the helps UML helps project teams communicate explore potential designs and validate the architectural design of the software.
+
+Use Case Diagram
+
+Use case diagram represents the functionality of the system. Use case focus on the behavior of the system from external point of view. Actors are external entities that interact with the system.
+
+UseCase Diagram 
+
+Use cases:
+A use case describes a sequence of actions that provide something of measurable value to an actor and is drawn as a horizontal ellipse.
+
+
+
+     Actors:
+
+An actor is a person, organization, or external system that plays a role in one or more interactions with the system.
+
+System boundary boxes (optional):
+
+
+A rectangle is drawn around the use cases, called the system boundary box, to indicate the scope of system. Anything within the box represents functionality that is in scope and anything outside the box is not.
+
+
+     Four relationships among use cases are used often in practice.
+
+
+     Include:
+
+In one form of interaction, a given use case may include another. "Include is a Directed Relationship between two use cases, implying that the behavior of the included use case is inserted into the behavior of the including use case.
+The first use case often depends on the outcome of the included use case. This is useful for extracting truly common behaviors from multiple use cases into a single description. The notation is a dashed arrow from the including to the included use case, with the label "«include»". There are no parameters or return values. To specify the location in a flow of events in which the base use case includes the behavior of another, you simply write include followed by the name of use case you want to include, as in the following flow for track order.
+
+   Extend:
+
+In another form of interaction, a given use case (the extension) may extend another. This relationship indicates that the behavior of the extension use case may be inserted in the extended use case under some conditions. The notation is a dashed arrow from the extension to the extended use case, with the label "«extend»". Modelers use the «extend» relationship toindicate use cases that are "optional" to the base use case.
+
+  Generalization:
+
+In the third form of relationship among use cases, a generalization/specialization relationship exists. A given use case may have common behaviors, requirements, constraints, and assumptions with a more general use case. In this case, describe them once, and deal with it in the same way, describing any differences in the specialized cases. The notation is a solid line ending in a hollow triangle drawn from the specialized to the more general use case (following the standard generalization notation.
+
+   Associations:
+
+
+Associations between actors and use cases are indicated in use case diagrams by solid lines. An association exists whenever an actor is involved with an interaction described by a use case. Associations are modeled as lines connecting use cases and actors to one another, with an optional arrowhead on one end of the line. The arrowhead is often used to indicating the direction of the initial invocation of the relationship or to indicate the primary actor within the use case.
+
+Identified Use Cases
+
+
+The ―user model view‖ encompasses a problemand solution from the preservative of those individuals whose problem the solution addresses. The view presents the goals and objectives of the problem owners and their requirements of the solution. This view is composed  of  ―use case diagrams‖. These diagrams describe the functionality provided by a system to external integrators. These diagrams contain actors, use cases, and their relationships.
+
+
+
+
+
+
+
+                          	Prediction
+
+
+
+
+
+
+
+CLASS DIAGRAM
+
+
+Class-based Modeling, or more commonly class-orientation, refers to the style of object-oriented programming in which inheritance is achieved by defining classes of objects; as opposed to the objects themselves (compare Prototype-based programming).
+
+
+The most popular and developed model of OOP is a class-based model, as opposed to an object-based model. In this model, objects are entities that combine state (i.e., data), behavior (i.e., procedures, or methods) and identity (unique existence among all other objects).
+
+The structure and behavior of an object are defined by a class, which is a definition, or blueprint, of all objects of a specific type. An object must be explicitly created based on a class and an object thus created is considered to be an instance of that class. An object is similar to a structure, with the addition of method pointers, member access control, and an implicit data member which locates instances of the class (i.e. actual objects of that class) in the class hierarchy (essential for runtime inheritance features).
+
+
+
+
+SEQUENCE DIAGRAM
+
+
+A sequence diagram in Unified Modeling Language (UML) is a kind of interaction diagram that shows how processes operate with one another and in what order. It is a construct of a Message Sequence Chart.
+Sequence diagrams are sometimes called event diagrams, event scenarios, and timing diagrams. A sequence diagram shows, as parallel vertical lines (lifelines), different processes or objects that live simultaneously, and, as horizontal arrows, the messages exchanged between them, in the order in which they occur. This allows the specification of simple runtime scenarios in a graphical manner. If the lifeline is that of an object, it demonstrates a role. Note that leaving the instance name blank can represent anonymous and unnamed instances. In order to display interaction, messages are used. These are horizontal arrows with the message name written above them. Solid arrows with full heads are synchronous calls, solid arrows with stick heads are asynchronous calls and dashed arrows with stick heads are return messages. This definition is true as of UML 2, considerably different from UML 1.x.
+Activation boxes, or method-call boxes, are opaque rectangles drawn on top of lifelinesto represent that processes are being performed in response to the message (Execution Specifications in UML).
+Objects calling methods on themselves use messages and add new activation boxes on top of any others to indicate a further level of processing. When an object is destroyed (removed from memory), an X is drawn on top of the lifeline, and the dashed line ceases to be drawn below it (this is not the case in the first example though). It should be the result of a message, either from the object itself, or another.
+A message sent from outside the diagram can be represented by a message originating from a filled-in circle (found message in UML) or from a border of sequence diagram (gate in UML). 
+
+
+
+ 	 
+
+
+
+
+
+
+
+
+
+
+STATE CHART DIAGRAM:
+
+            Objects have behaviors and states. The state of an object depends on its current activity or condition. A state chart diagram shows the possible states of the object and the transitions that cause a change in state. A state diagram, also called a state machine diagram or state chart diagram, is an illustration of the states an object can attain as well as the transitions between those states in the Unified Modeling Language. A state diagram resembles a flowchart in which the initial state is represented by a large black dot and subsequent states are portrayed as boxes with rounded corners. There may be one or two horizontal lines through a box, dividing it into stacked sections. In that case, the upper section contains the name of the state, the middle section (if any) contains the state variables and the lower section contains the actions performed in that state. If there are no horizontal lines through a box, only the name of the state is written inside it. External straight lines, each with an arrow at one end, connect various pairs of boxes.
+
+These lines define the transitions between states. The final state is portrayed as a large black dot with a circle around it. Historical states are denoted as circles with the letter H inside.
+
+
+
+
+
+DEPLOYMENT DIAGRAM:
+
+Deployment diagrams are used to visualize the topology of the physical components of a system where the software components are deployed.
+
+So, deployment diagrams are used to describe the static deployment view of a system.
+Deployment diagrams consist of nodes and their relationships.
+
+
+Purpose:
+
+The name Deployment itself describes the purpose of the diagram. Deployment diagrams are used for describing the hardware components where software components are deployed. Component diagrams and deployment diagrams are closely related.
+
+Component diagrams are used to describe the components and deployment diagrams shows how they are deployed in hardware.
+
+
+UML is mainly designed to focus on software artifacts of a system. But these two diagrams are special diagrams used to focus on software components and hardware components.
+
+So, most of the UML diagrams are used to handle logical components but deployment diagrams are made to focus on hardware topology of a system. Deployment diagrams are used by the system engineers.
+
+The purpose of deployment diagrams can be described as:
+
+
+•	Visualize hardware topology of a system.
+
+•	Describe the hardware components used to deploy software components.
+
+•	Describe runtime processing nodes.
+
+
+How to draw Deployment Diagram?
+
+Deployment diagram represents the deployment view of a system. It is related to the component diagram. Because the components are deployed using the deployment diagrams. A deployment diagram consists of nodes. Nodes are nothing but physical hardwares used to deploy the application.
+
+        Deployment diagrams are useful for system engineers. An efficient deployment diagram is      very important because it controls the following parameters.
+ 
+•	Performance
+
+•	Scalability
+
+•	Maintainability
+
+•	Portability
+
+
+So before drawing a deployment diagram the following artifacts should be identified:
+
+•	Nodes
+
+•	Relationships among nodes
+
+
+The following deployment diagram is a sample to give an idea of the deployment view of order management system. Here we have shown nodes as:
+•	Monitor
+
+•	Modem
+
+•	Caching server
+
+•	Server
+
+
+The application is assumed to be a web-based application which is deployed in a clustered environment using server 1, server 2 and server 3. The user is connecting to the application using internet. The control is flowing from the caching server to the clustered environment.
+
+So, the following deployment diagram has been drawn considering all the points mentioned above:
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+CHAPTER 8
+MODULES DESCRIPTION
+
+
+
+
+
+
+
+
+
+
+
+MODULES DESCRIPTION
+
+•	Data Extraction
+
+
+•	Data Exploration
+
+
+•	Visualization
+
+
+•	Split train and valid
+
+
+•	Machine Learning
+
+
+•	Accuracy Comparison
+
+
+•	Localhost data
+
+
+•	user input
+
+
+•	Analysis
+
+
+•	Prediction
+
+
+	Data Extraction: Data extraction is a process that involves retrieval of data from various sources. Frequently, companies extract data in order to process it further, migrate the data to a data repository (such as a data warehouse or a data lake) or to further analyze it. It's common to transform the data as a part of this process.
+
+	Data Exploration: Data exploration is an approach similar to initial data analysis, whereby a data analyst uses visual exploration to understand what is in a dataset and the characteristics of the data, rather than through traditional data management systems.
+	Visualization: Data visualization is a technique that uses an array of static and interactive visuals within a specific context to help people understand and make sense of large amounts of data. The data is often displayed in a story format that visualizes patterns, trends and correlations that may otherwise go unnoticed.
+	Split train and valid: The train-test split is a technique for evaluating the performance of a machine learning algorithm. It can be used for classification or regression problems and can be used for any supervised learning algorithm. The procedure involves taking a dataset and dividing it into two subsets.
+	Machine learning: Machine learning is the study of computer algorithms that improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence.
+	Accuracy Comparison: The working on a classification problem, the best score is 100% accuracy. If you are working on a regression problem, the best score is 0.0 error. These scores are an impossible to achieve upper/lower bound. All predictive modeling problems have prediction error.
+	Local host data: Deploy Machine Learning model as a REST API, and make it accessible. The model will be running on our local host, so no, you won't be able to access it Python, and are using Python just for data and machine learning related stuff.
+	User input: We input the data in the learning algorithm as a set of inputs, which is called as Features, denoted by X along with the corresponding outputs, which is indicated by Y, and the algorithm learns by comparing its actual production with correct outputs to find errors. It then modifies the model accordingly.
+	Analysis: Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.
+	Prediction:     The machine     learning. PREDICT function     can     be      usedto predict outcomes using the model. The output of the ML. PREDICT function has as many rows as the input table, and it includes all columns from the input table and all output columns from the model.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Packages And Methods/Functions Used For Developing The Model
+
+Package	Description	Methods/Functions Used
+tkinter	Tkinter is the standard GUI toolkit for Python. It provides classes and methods for creating GUI applications.	Tk() - Creates the main window for the GUI application. Button() - Creates a button widget. Label() - Creates a text label. Text() - Creates a text widget. askopenfilename() - Opens a file dialog window. filedialog - Provides file dialog functionality. messagebox - Provides message box functionality. mainloop() - Runs the main event loop.
+matplotlib.pyplot	Matplotlib is a plotting library for Python. It provides functions for creating various types of plots and visualizations.	plt.plot() - Plots data on the graph. plt.figure() - Creates a new figure for plotting. plt.show() - Displays the plot.
+numpy	NumPy is a library for numerical computing in Python. It provides support for multi-dimensional arrays and matrices, along with a collection of mathematical functions.	np.arange() - Returns evenly spaced values within a given range. np.random.shuffle() - Shuffles the elements of an array. np.ndarray.shape - Returns the shape of an array.
+pandas	Pandas is a data analysis and manipulation library for Python. It provides data structures and functions for working with structured data.	pd.read_csv() - Reads data from a CSV file. DataFrame.fillna() - Fills missing values in a DataFrame. DataFrame.drop() - Drops specified labels from rows or columns.
+seaborn	Seaborn is a statistical data visualization library based on Matplotlib. It provides high-level functions for creating attractive and informative statistical graphics.	sns.set_style() - Sets the aesthetic style of the plots. sns.heatmap() - Plots rectangular data as a color-encoded matrix.
+sklearn	Scikit-learn is a machine learning library for Python. It provides simple and efficient tools for data mining and data analysis.	train_test_split() - Splits data into training and testing sets. RandomForestClassifier() - Creates a Random Forest classifier. precision_score() - Computes the precision of a classifier. recall_score() - Computes the recall of a classifier. f1_score() - Computes the F1 score of a classifier. accuracy_score() - Computes the accuracy of a classifier. LabelEncoder() - Encodes labels with a value between 0 and n_classes-1. normalize() - Scales input vectors individually to unit norm (vector magnitude).
+
+
+Performance Metrics Used For Developing The Model
+
+The performance metrics are used to evaluate the effectiveness of the machine learning models in predicting loan approval. These metrics provide insights into the model's accuracy, precision, recall, and overall performance. Here's a detailed explanation of each performance metric:
+
+1.	Accuracy:
+
+   - Accuracy measures the proportion of correctly predicted outcomes (both true positives and true negatives) out of the total number of predictions.
+   - Mathematically, accuracy is calculated as:
+     \[ \text{Accuracy} = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}} \times 100\% \]
+   - Accuracy provides a general overview of the model's predictive performance but may not be sufficient for imbalanced datasets where the classes are unevenly distributed.
+
+2. Precision:
+
+   - Precision measures the proportion of true positive predictions among all positive predictions made by the model.
+   - Mathematically, precision is calculated as:
+     \[ \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}} \times 100\% \]
+   - Precision is important in scenarios where false positives are costly or undesirable, such as in medical diagnosis or credit approval.
+
+3. Recall (Sensitivity):
+
+   - Recall, also known as sensitivity or true positive rate, measures the proportion of true positive predictions among all actual positive instances in the dataset.
+   - Mathematically, recall is calculated as:
+     \[ \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}} \times 100\% \]
+   - Recall is crucial when the focus is on capturing as many positive instances as possible, such as in disease detection or anomaly detection.
+
+5.	F1 Score:
+
+   - F1 score is the harmonic mean of precision and recall, providing a balanced measure of a model's performance.
+   - Mathematically, F1 score is calculated as:
+     \[ \text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
+   - F1 score is particularly useful when there is an imbalance between the positive and negative classes in the dataset.
+
+These performance metrics collectively provide a comprehensive evaluation of the model's predictive capabilities, considering both its ability to correctly classify instances and its ability to minimize false positives and false negatives. By analyzing these metrics, one can gain insights into the strengths and weaknesses of the machine learning models and make informed decisions about model selection and optimization.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                  CHAPTER 9
+MACHINE LEARNING ALGORITHMS
+
+
+
+
+
+
+
+
+
+
+       
+          MACHINE LEARNING ALGORITHMS
+
+About Machine Learning 
+
+Machine Learning (ML) is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to learn and improve from experience without being explicitly programmed. In essence, ML algorithms use data to identify patterns, make predictions, and automate decision-making processes.
+
+Here's a detailed explanation of Machine Learning and its importance:
+
+1.	Types of Machine Learning:
+
+   - Supervised Learning: In supervised learning, the algorithm learns from labeled data, where each example in the dataset is associated with a target label. The goal is to learn a mapping from input features to the target labels, enabling the algorithm to make predictions on unseen data.
+   - Unsupervised Learning: In unsupervised learning, the algorithm learns from unlabeled data, where there are no predefined target labels. The goal is to uncover hidden patterns or structures within the data, such as clusters or associations.
+   - Reinforcement Learning: In reinforcement learning, the algorithm learns by interacting with an environment and receiving feedback in the form of rewards or penalties. The goal is to learn a policy that maximizes cumulative reward over time.
+   - Semi-supervised Learning: Semi-supervised learning combines elements of supervised and unsupervised learning, where the algorithm learns from a combination of labeled and unlabeled data.
+
+2. Importance of Machine Learning:
+   - Automation: ML enables automation of repetitive tasks and decision-making processes, freeing up human resources for more creative and strategic tasks.
+   - Personalization: ML algorithms can analyze large volumes of data to provide personalized recommendations, such as product recommendations in e-commerce or content recommendations on streaming platforms.
+   - Insights from Data: ML enables organizations to extract valuable insights from large and complex datasets that may be difficult or impossible to analyze manually.
+   - Predictive Analytics: ML models can make predictions based on historical data, helping businesses anticipate trends, identify risks, and make informed decisions.
+   - Optimization: ML algorithms can optimize processes and operations by identifying inefficiencies, reducing costs, and improving performance.
+   - Healthcare: In healthcare, ML is used for disease diagnosis, treatment optimization, patient monitoring, and personalized medicine.
+   - Finance: In finance, ML is used for fraud detection, risk assessment, algorithmic trading, and customer segmentation.
+   - Marketing: In marketing, ML is used for customer segmentation, churn prediction, sentiment analysis, and targeted advertising.
+   - Natural Language Processing (NLP): ML algorithms enable computers to understand and generate human language, powering applications such as virtual assistants, chatbots, and language translation.
+
+Machine Learning plays a crucial role in various industries and domains by enabling automation, personalization, insights from data, predictive analytics, optimization, and advancements in fields such as healthcare, finance, marketing, and natural language processing. Its importance will continue to grow as organizations increasingly rely on data-driven decision-making and seek to leverage the power of AI to drive innovation and competitiveness.
+                                      
+                           
+
+
+
+
+Random Forest Algorithm
+
+
+Random Forest is an ensemble learning method that operates by constructing a multitude of decision trees during training and outputting the mode of the classes (classification) or mean prediction (regression) of the individual trees. It builds multiple decision trees and merges them together to get a more accurate and stable prediction.
+
+Here's a brief overview of how Random Forest works:
+
+1. Bootstrapping: Random samples of the dataset are repeatedly taken with replacement to create multiple subsets (bootstrap samples) of the data.
+
+2. Feature Randomness: At each node of the decision tree, a random subset of features is considered for splitting. This introduces randomness and reduces correlation among trees.
+
+3. Decision Tree Building: Decision trees are built independently on each bootstrap sample using the selected features. Each tree is grown until a specified stopping criterion is met, such as reaching a maximum depth or minimum number of samples per leaf node.
+
+4. Voting or Averaging: In classification tasks, the mode of the class predictions from all trees is taken as the final prediction. In regression tasks, the mean of the predictions is computed.
+
+Now, let's create a class diagram to illustrate the components of Random Forest:
+
+-----------------------------------------
+|              Random Forest            |
+-----------------------------------------
+| - n_estimators: int                  |
+| - max_depth: int                      |
+| - min_samples_split: int              |
+| - min_samples_leaf: int               |
+| - max_features: int or float          |
+| - random_state: int                   |
+|---------------------------------------|
+| + fit(X, y): None                     |
+| + predict(X): ndarray                 |
+| + predict_proba(X): ndarray           |
+| + feature_importances_: ndarray      |
+-----------------------------------------
+
+- Random Forest: Represents the Random Forest classifier.
+  - n_estimators: Number of trees in the forest.
+  - max_depth: Maximum depth of the individual trees.
+  - min_samples_split: Minimum number of samples required to split a node.
+  - min_samples_leaf: Minimum number of samples required to be at a leaf node.
+  - max_features: Number of features to consider when looking for the best split.
+  - random_state: Seed used by the random number generator for random state.
+  - fit(X, y): Method to fit the Random Forest model to the training data.
+  - predict(X): Method to make predictions on the input data.
+  - predict_proba(X): Method to predict class probabilities for input data.
+  - feature_importances_: Attribute to access the importance of each feature.
+
+This class diagram represents the structure of the Random Forest classifier, including its attributes and methods. It encapsulates the functionality of creating multiple decision trees, training them on bootstrap samples, and combining their predictions to make accurate and robust predictions.
+
+
+ 
+
+ Logistic Regression
+
+Logistic Regression is a statistical method used for binary classification tasks, where the target variable (also called the dependent variable) has two possible outcomes, typically represented as 0 and 1. It is a type of regression analysis that estimates the probability that a given input belongs to a particular category.
+
+1. Objective: 
+   - Logistic Regression aims to model the probability that a given input sample belongs to a specific class (e.g., yes/no, pass/fail, spam/not spam).
+
+2. Model Representation:
+   - In logistic regression, the output or response variable, \( y \), is a binary variable. It can represent two outcomes, usually coded as 0 and 1. The input features or independent variables, \( X \), can be continuous, categorical, or a mix of both.
+   - The logistic regression model computes the probability of the input sample belonging to the positive class (class 1) using a logistic function.
+
+3. Logistic Function (Sigmoid Function):
+   - The logistic function, also known as the sigmoid function, is used to map the input features to a probability score between 0 and 1.
+   - The sigmoid function is defined as:
+     \[ g(z) = \frac{1}{1 + e^{-z}} \]
+     where \( z \) is the linear combination of input features and model coefficients.
+
+4. Model Hypothesis:
+   - The hypothesis function in logistic regression is defined as:
+     \[ h_\theta(x) = g(\theta^T x) \]
+     where \( h_\theta(x) \) is the predicted probability that the output is 1 given the input \( x \), \( g() \) is the logistic function, \( \theta \) is the vector of model coefficients (parameters), and \( x \) is the vector of input features.
+
+5. Model Training:
+   - During training, the logistic regression model learns the optimal values of the model coefficients \( \theta \) that best fit the training data.
+   - This is typically done by minimizing a cost function (e.g., logistic loss or cross-entropy loss) using optimization algorithms such as gradient descent.
+
+6. Decision Boundary:
+   - Logistic regression predicts class labels by using a decision boundary that separates the input space into two regions corresponding to the two classes.
+   - The decision boundary is typically defined by the line (or hyperplane in higher dimensions) where the predicted probability equals 0.5.
+
+7. Model Evaluation:
+   - Logistic regression models are evaluated based on metrics such as accuracy, precision, recall, F1-score, and area under the ROC curve (AUC-ROC).
+
+Logistic Regression is a popular algorithm due to its simplicity, interpretability, and efficiency in binary classification tasks. It is widely used in various fields such as finance, healthcare, marketing, and social sciences. However, it is important to note that logistic regression assumes a linear relationship between the input features and the log-odds of the outcome, which may not always hold true in practice.
+ 
+
+
+                                                    Decision Tree
+
+Decision Tree is a versatile and widely used supervised learning algorithm for both classification and regression tasks. It is a non-parametric method that builds a predictive model in the form of a tree structure. Each internal node of the tree represents a feature or attribute, each branch represents a decision based on that feature, and each leaf node represents a class label or a numerical value.
+
+Here's a detailed explanation of Decision Tree:
+
+1. Objective:
+   - Decision Tree aims to create a model that predicts the value of a target variable based on several input features.
+
+2. Model Representation:
+   - Decision Tree represents a flowchart-like structure where each internal node represents a feature or attribute, each branch represents a decision based on that feature, and each leaf node represents the outcome or class label.
+   - The decision tree is constructed recursively by splitting the dataset into subsets based on the values of the input features.
+
+3. Splitting Criteria:
+   - The decision tree algorithm selects the best feature to split the dataset at each node based on a certain criterion, such as Gini impurity or information gain (entropy).
+   - Gini impurity measures the degree of impurity or uncertainty in a dataset. It is minimized when all samples belong to the same class.
+   - Information gain measures the reduction in entropy or uncertainty achieved by splitting the dataset based on a particular feature.
+
+4. Tree Construction:
+   - The decision tree is constructed recursively in a top-down manner. At each node, the algorithm selects the best feature to split the dataset, creating child nodes for each possible outcome of that feature.
+   - This process continues until a stopping criterion is met, such as reaching a maximum depth, minimum number of samples per leaf node, or no further improvement in impurity reduction.
+
+5. Prediction:
+   - To make predictions, a new sample is traversed down the decision tree from the root node to a leaf node based on the values of its features.
+   - The class label or value associated with the leaf node reached by the sample is then assigned as the predicted outcome.
+
+6. Model Interpretability:
+   - Decision trees are highly interpretable and easy to understand, as they represent a series of simple if-else rules.
+   - The decision tree structure can be visualized graphically, allowing users to interpret and explain the model's decision-making process.
+
+7. Model Evaluation:
+   - Decision trees are evaluated based on metrics such as accuracy, precision, recall, F1-score, and mean squared error (for regression tasks).
+   - Additionally, decision trees can be prone to overfitting, especially if the tree is deep and not pruned properly. Regularization techniques such as pruning and setting minimum sample leaf sizes can help mitigate overfitting.
+
+Decision Tree is a powerful and interpretable algorithm that is widely used in various domains such as finance, healthcare, marketing, and engineering for its simplicity, interpretability, and ability to handle both numerical and categorical data.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                               
+
+
+
+
+
+
+
+
+
+
+                                                CHAPTER 10
+ IMPLEMENTATION 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          IMPLEMENTATION 
+
+SOURCE CODE:
+
+from tkinter import messagebox
+from tkinter import *
+from tkinter import simpledialog
+import tkinter
+from tkinter import filedialog
+import matplotlib.pyplot as plt
+import numpy as np
+from tkinter.filedialog import askopenfilename
+import pandas as pd
+import seaborn as sns
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import normalize
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+from sklearn.metrics import f1_score
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import normalize
+
+main = tkinter.Tk()
+main.title("PREDICTION OF LOAN ELIGIBILITY OF THE CUSTOMER") #designing main screen
+main.geometry("1300x1200")
+
+global filename
+precision = []
+recall = []
+fscore = []
+accuracy = []
+global X, Y
+global dataset
+global X_train, X_test, y_train, y_test
+global le
+global classifier
+
+def upload(): #function to upload tweeter profile
+    global filename
+    global dataset
+    filename = filedialog.askopenfilename(initialdir="Dataset")
+    pathlabel.config(text=filename)
+    text.delete('1.0', END)
+    text.insert(END,filename+" loaded\n\n");
+    dataset = pd.read_csv(filename)
+    dataset.fillna(0, inplace = True)
+    text.insert(END,str(dataset.head()))
+    dataset['Loan_ID'] = dataset['Loan_ID'].astype('str')
+    dataset['Gender'] = dataset['Gender'].astype('str')
+    dataset['Married'] = dataset['Married'].astype('str')
+    dataset['Education'] = dataset['Education'].astype('str')
+    dataset['Self_Employed'] = dataset['Self_Employed'].astype('str')
+    dataset['Property_Area'] = dataset['Property_Area'].astype('str')
+    dataset['Loan_Status'] = dataset['Loan_Status'].astype('str')
+    print(dataset.info())
+    sns.set_style('dark')
+    dataset.plot(figsize=(18, 8))
+    plt.show()
+
+def preprocess():
+    global dataset
+    global le
+    text.delete('1.0', END)
+    le = LabelEncoder()
+    dataset.drop(['Loan_ID'], axis = 1,inplace=True)
+    dataset['Gender'] = pd.Series(le.fit_transform(dataset['Gender']))
+    dataset['Married'] = pd.Series(le.fit_transform(dataset['Married']))
+    dataset['Education'] = pd.Series(le.fit_transform(dataset['Education']))
+    dataset['Self_Employed'] = pd.Series(le.fit_transform(dataset['Self_Employed']))
+    dataset['Property_Area'] = pd.Series(le.fit_transform(dataset['Property_Area']))
+    dataset['Loan_Status'] = pd.Series(le.fit_transform(dataset['Loan_Status']))
+    text.insert(END,str(dataset.head()))
+    
+
+def splitDataset():
+    text.delete('1.0', END)
+    global filename
+    global dataset
+    global X, Y
+    global X_train, X_test, y_train, y_test
+    dataset = dataset.values
+    cols = dataset.shape[1]-1
+    X = dataset[:,0:cols]
+    Y = dataset[:,cols]
+    X = normalize(X)
+    print(Y)
+
+    indices = np.arange(X.shape[0])
+    np.random.shuffle(indices)
+    X = X[indices]
+    Y = Y[indices]
+
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
+    text.insert(END,"Total records found in dataset are : "+str(X.shape[0])+"\n")
+    text.insert(END,"Total records used to train machine learning algorithms are : "+str(X_train.shape[0])+"\n")
+    text.insert(END,"Total records used to test machine learning algorithms are  : "+str(X_test.shape[0])+"\n")
+    dataset = pd.read_csv(filename)
+    plt.figure(figsize=(75,75))
+    sns.heatmap(dataset.corr(), annot = True)
+    plt.show()
+                
+def runRF():
+    global classifier
+    precision.clear()
+    recall.clear()
+    fscore.clear()
+    accuracy.clear()
+    text.delete('1.0', END)
+    global X_train, X_test, y_train, y_test
+    cls = RandomForestClassifier(n_estimators=200,random_state=0)
+    cls.fit(X_train, y_train)
+    predict = cls.predict(X_test) 
+    p = precision_score(y_test, predict,average='macro') * 100
+    r = recall_score(y_test, predict,average='macro') * 100
+    f = f1_score(y_test, predict,average='macro') * 100
+    a = accuracy_score(y_test,predict)*100
+    text.insert(END,'Random Forest Accuracy  : '+str(a)+"\n")
+    text.insert(END,'Random Forest Precision : '+str(p)+"\n")
+    text.insert(END,'Random Forest Recall    : '+str(r)+"\n")
+    text.insert(END,'Random Forest FSCORE    : '+str(f)+"\n\n")
+    accuracy.append(a)
+    precision.append(p)
+    recall.append(r)
+    fscore.append(f)
+    classifier = cls
+
+def predictEligibility():
+    global classifier
+    global le
+    text.delete('1.0', END)
+    testname = filedialog.askopenfilename(initialdir = "Dataset")
+    test = pd.read_csv(testname)
+    test.fillna(0, inplace = True)
+    test['Loan_ID'] = test['Loan_ID'].astype('str')
+    test['Gender'] = test['Gender'].astype('str')
+    test['Married'] = test['Married'].astype('str')
+    test['Education'] = test['Education'].astype('str')
+    test['Self_Employed'] = test['Self_Employed'].astype('str')
+    test['Property_Area'] = test['Property_Area'].astype('str')
+    test.drop(['Loan_ID'], axis = 1,inplace=True)
+    test['Gender'] = pd.Series(le.fit_transform(test['Gender']))
+    test['Married'] = pd.Series(le.fit_transform(test['Married']))
+    test['Education'] = pd.Series(le.fit_transform(test['Education']))
+    test['Self_Employed'] = pd.Series(le.fit_transform(test['Self_Employed']))
+    test['Property_Area'] = pd.Series(le.fit_transform(test['Property_Area']))
+    test = test.values
+    test = normalize(test)
+    cols = test.shape[1]
+    test = test[:,0:cols]
+    predict = classifier.predict(test)
+    print(predict)
+    for i in range(len(predict)):
+        if predict[i] == 0:
+            text.insert(END,"Test Record : "+str(test[i])+" Sorry! Not Eligible for Loan\n\n")
+        else:
+            text.insert(END,"Test Record : "+str(test[i])+" Congratulation! You are Eligible for Loan\n\n")
+    
+def graph():
+    df = pd.DataFrame([['Random Forest','Precision',precision[0]],['Random Forest','Recall',recall[0]],['Random Forest','F1 Score',fscore[0]],['Random Forest','Accuracy',accuracy[0]],
+                       
+                      ],columns=['Parameters','Algorithm','Value'])
+    df.pivot("Parameters", "Algorithm", "Value").plot(kind='bar')
+    plt.show()
+
+def close():
+    main.destroy()
+
+font = ('times', 16, 'bold')
+title = Label(main, text='PREDICTION OF LOAN ELIGIBILITY OF THE CUSTOMER')
+title.config(bg='brown', fg='white')  
+title.config(font=font)           
+title.config(height=3, width=120)       
+title.place(x=0,y=5)
+
+font1 = ('times', 13, 'bold')
+uploadButton = Button(main, text="Upload Loan Dataset", command=upload)
+uploadButton.place(x=50,y=100)
+uploadButton.config(font=font1)  
+
+pathlabel = Label(main)
+pathlabel.config(bg='brown', fg='white')  
+pathlabel.config(font=font1)           
+pathlabel.place(x=360,y=100)
+
+preprocessButton = Button(main, text="Preprocess Dataset", command=preprocess)
+preprocessButton.place(x=50,y=150)
+preprocessButton.config(font=font1) 
+
+traintestButton = Button(main, text="Generate Train & Test Data", command=splitDataset)
+traintestButton.place(x=340,y=150)
+traintestButton.config(font=font1) 
+
+rfButton = Button(main, text="Run Random Forest ML Model", command=runRF)
+rfButton.place(x=630,y=150)
+rfButton.config(font=font1) 
+
+predictButton = Button(main, text="Predict Eligibility using RF Model", command=predictEligibility)
+predictButton.place(x=920,y=150)
+predictButton.config(font=font1)
+
+graphButton = Button(main, text="Random Forest Performance Graph", command=graph)
+graphButton.place(x=50,y=200)
+graphButton.config(font=font1)
+
+closeButton = Button(main, text="Exit", command=close)
+closeButton.place(x=340,y=200)
+closeButton.config(font=font1)
+
+font1 = ('times', 12, 'bold')
+text=Text(main,height=18,width=150)
+scroll=Scrollbar(text)
+text.configure(yscrollcommand=scroll.set)
+text.place(x=10,y=250)
+text.config(font=font1)
+
+main.config(bg='brown')
+main.mainloop()
+
+                                       RESULTS AND SCREEN SHOTS
+
+      PREDICTION OF LOAN ELIGIBILITY OF THE CUSTOMER
+
+In this project we are using machine learning algorithm called Random Forest to predict loan eligibility and to train this random forest we are using below dataset.
+
+
+In above dataset in first row we can see dataset column names and in other rows we have dataset values and in last column we have class label as Y or N where Y means eligible and N means not eligible and now we used above dataset to train machine learning model and after training we will upload test dataset and then application will predict class label Y or N and below is test dataset screen shots.
+
+
+In above test data we don‘t have any N or Y class label and by analysing above records machine learning will predict eligibility.
+
+
+
+
+In above screen click on ‗Upload Loan Dataset‘ button to load dataset.
+
+ 
+
+In above screen selecting and uploading ‗loan-train.csv‘ file and then click on ‗Open‘ button to load dataset and to get below screen.
+
+ 
+
+In above screen dataset loaded and all columns contains non-numeric values and machine learning will not accept non-numeric values so we need to convert all those values to numeric by assigning ID‘s to them where MALE will replace with 0 and FEMALE will replace with 1 and below graph showing number of different values in dataset.
+ 
+
+In above graph different colour lines represents counts of that column and you can see column names with colour in graph top right side. Now click on ‗Preprocess Dataset‘ button to clean dataset.
+
+ 
+
+
+In above screen all non-numeric data is replace with numeric values and now click on
+
+‗Generate Train & Test Data‘ button to split dataset into train and test part.
+
+ 
+
+
+In above screen dataset contains 614 records and using 491 records to train ML and 123 records to test ML accuracy. In below graph we can see importance of each attribute with other attribute by using graph correlation metric.
+
+ 
+
+In above graph whatever column in x-axis and y-axis having value >0 will be consider as important features or column. Now click on ‗Run Random Forest Ml Model‘s  to build random forest model on above dataset.
+
+
+ 
+In above screen random forest model generated with 77% accuracy and we can see its precision, recall and FSCORE value and now click on ‗Predict Eligibility using RF Model‘ button to upload test data and perform eligibility prediction.
+  
+
+In above screen selecting and uploading ‗testData.csv‘ file and then click on ‗Open‘ button to load test data and then will get below prediction result.
+
